@@ -113,8 +113,8 @@ class AddContact extends Component {
           {this.state.errorMessage == undefined ? (
             <></>
           ) : (
-            <div className="row">
-              <div className="col-12 col-md-6 offset-3 p-1 text-center">
+            <div className="fluid-container">
+              <div className=" align-items-center flex-row">
                 <h4 className="text-danger">{this.state.errorMessage}</h4>
               </div>
             </div>
@@ -123,8 +123,8 @@ class AddContact extends Component {
           {this.state.sucessMessage == undefined ? (
             <></>
           ) : (
-            <div className="row">
-              <div className="col-12 col-md-6 offset-3 p-1 text-center">
+            <div className="fluid-container">
+              <div className=" align-items-center flex-row">
                 <h4 className="text-success">{this.state.sucessMessage}</h4>
               </div>
             </div>
